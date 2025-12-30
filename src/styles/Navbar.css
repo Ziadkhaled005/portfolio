@@ -1,0 +1,88 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #111;
+    /* dark background for contrast */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Brand / Name */
+.brand {
+    color: #fff;
+    /* white text */
+    font-size: 2rem;
+    /* bigger name */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Menu list */
+.navbar-menu {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-menu li a {
+    color: #fff;
+    /* white links */
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.navbar-menu li a:hover {
+    color: #f0a500;
+    /* optional hover color */
+}
+
+/* Hamburger toggle */
+.navbar-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25px;
+    height: 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.bar {
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    /* white bars */
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .navbar-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #111;
+        /* same as navbar */
+        margin-top: 0.5rem;
+    }
+
+    .navbar-menu.active {
+        display: flex;
+    }
+
+    .navbar-menu li {
+        text-align: center;
+        padding: 0.75rem 0;
+        border-top: 1px solid #333;
+    }
+
+    .navbar-toggle {
+        display: flex;
+    }
+}
