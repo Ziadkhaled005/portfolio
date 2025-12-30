@@ -11,6 +11,13 @@ const skills = [
     "JSON",
     "Git & GitHub",
     "Basics of AI",
+    "Netlify",
+    "Vite",
+    "npm/yarn/pnpm",
+    "React.js",
+    "useState, useEffect, useContext",
+    "React (Hooks, Context API, Components)",
+    "Next.js",
 ];
 
 function Skills() {
