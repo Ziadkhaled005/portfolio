@@ -3,7 +3,7 @@ const projects = [
         title: "Movie Explorer Application",
         description:
             "A modern React application for browsing and searching movies, featuring detailed pages, ratings, and favorites.",
-        link: "#",
+        link: "https://movieee-explorer.netlify.app/",
     },
     {
         title: "Task Management Dashboard",
