@@ -3,7 +3,7 @@ function Hero() {
         <section>
             <h1 style={{ fontSize: "48px" }}>Ziad Khaled</h1>
             <p style={{ marginTop: "20px", fontSize: "18px" }}>
-                Computer Science Graduate | Frontend & Web Developer
+                Computer Science Graduate | Web Developer
             </p>
         </section>
     );
