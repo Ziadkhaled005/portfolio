@@ -9,7 +9,7 @@ const projects = [
         title: "Task Management Dashboard",
         description:
             "A productivity-focused task manager with priorities, statuses, and persistent state.",
-        link: "#",
+        link: "https://task-dashboard-todo-app.netlify.app/",
     },
     {
         title: "E-Commerce Frontend Application",
@@ -23,12 +23,12 @@ const projects = [
             "Demonstrates authentication flows, protected routes, and role-based access control.",
         link: "#",
     },
-    {
-        title: "Analytics Dashboard Application",
-        description:
-            "Interactive dashboard displaying analytics data with charts and statistics cards.",
-        link: "#",
-    },
+    // {
+    //     title: "Analytics Dashboard Application",
+    //     description:
+    //         "Interactive dashboard displaying analytics data with charts and statistics cards.",
+    //     link: "#",
+    // },
 ];
 
 function Projects() {
