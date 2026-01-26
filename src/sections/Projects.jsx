@@ -15,7 +15,7 @@ const projects = [
         title: "E-Commerce Frontend Application",
         description:
             "A responsive e-commerce frontend with cart functionality and clean UI architecture.",
-        link: "https://sl1nk.com/dXfnv",
+        link: "https://e-commerce-frontend--ziadzezoo005.replit.app/",
     },
     {
         title: "Authentication & Role-Based Access App",
